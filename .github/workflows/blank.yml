@@ -1,5 +1,5 @@
 //.github/workflows/blank.yml
-name: fastcampus board
+name: fc board
 env:
  AWS_REGION: ap-northeast-2
 on:
@@ -40,4 +40,4 @@ jobs:
  application_name: fc-board
  environment_name: Fc-board-env
  version_label: github-action-${{steps.current-time.outputs.formattedTime}}
- deployment_package: deploy/deploy.zi
+ deployment_package: deploy/deploy.zip
