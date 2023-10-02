@@ -17,5 +17,4 @@ class SampleController {
     fun samplePost(@RequestParam name: String): String {
         return "Sample Name : $name"
     }
-
 }
