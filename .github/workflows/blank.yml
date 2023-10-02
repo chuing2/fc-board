@@ -1,4 +1,3 @@
-//.github/workflows/blank.yml
 name: fc board
 env:
  AWS_REGION: ap-northeast-2
